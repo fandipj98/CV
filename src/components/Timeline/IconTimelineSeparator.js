@@ -6,8 +6,8 @@ import './IconTimelineSeparator.css';
 
 function IconTimelineSeparator(props) {
     return(
-        <TimelineSeparator className={'separator_padding'}>
-            <TimelineDot variant={'default'} className={'timeline_dot'}>{props.icon}</TimelineDot>
+        <TimelineSeparator className="separator_padding">
+            <TimelineDot variant="default" className="timeline_dot">{props.icon}</TimelineDot>
             {props.last ? ('') : (
                 <TimelineConnector />
             )}

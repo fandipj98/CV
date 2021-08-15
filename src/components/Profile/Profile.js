@@ -2,8 +2,10 @@ import Foto from '../../assets/images/FandiPJ.jpg';
 import CustomTimeline from '../Timeline/CustomTimeline';
 import ProfileTimeline from './ProfileTimeline';
 import Contact from '../../data/Contact';
+import CustomButton from '../Button/CustomButton';
 
 import ContactsIcon from '@material-ui/icons/Contacts';
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 import './Profile.css';
 
@@ -15,10 +17,15 @@ function Profile() {
             </div>
 
             <div className="profile_information">
-                <CustomTimeline icon={<ContactsIcon />} title={'Contact'}>
+                <CustomTimeline icon={<ContactsIcon />} title="Contact">
                     <ProfileTimeline data={Contact}/>
                 </CustomTimeline>
             </div>
+
+            <div className="button_container">
+                <CustomButton text="Download CV" icon={<GetAppIcon />}/>
+            </div>
+
         </div>
     );
 }

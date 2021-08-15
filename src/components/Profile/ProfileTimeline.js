@@ -7,22 +7,22 @@ import './ProfileTimeline.css';
 
 function ProfileTimeline(props) {
     return (
-        [props.data.map((item) => {
+        props.data.map((item) => {
             return (
                 <div key={item.id}>
-                    <TimelineItem className={'timeline_item'}>
+                    <TimelineItem className="timeline_item">
                         {item.id == props.data.length ? (
                             <IconTimelineSeparator icon={item.icon} last={true}/>
                         ) : (
                             <IconTimelineSeparator icon={item.icon}/>
                         )}
-                        <TimelineContent className={'timeline_text_item'}>
+                        <TimelineContent className="timeline_text_item">
                             {item.value}
                         </TimelineContent>
                     </TimelineItem>
                 </div>
             );
-        })]
+        })
     );
 }
 

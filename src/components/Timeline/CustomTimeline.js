@@ -9,14 +9,14 @@ import './CustomTimeline.css';
 
 function CustomTimeline(props) {
     return (
-        <Timeline className={'timeline'}>
+        <Timeline className="timeline">
             {/* Item Header */}
-            <TimelineItem className={'timeline_header'}>
+            <TimelineItem className="timeline_header">
                 <TimelineSeparator>
-                    <TimelineDot className={'timeline_dot_header'}>{props.icon}</TimelineDot>
+                    <TimelineDot className="timeline_dot_header">{props.icon}</TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><h6 className={'timeline_text_header'}>{props.title}</h6></TimelineContent>
+                <TimelineContent><h6 className="timeline_text_header">{props.title}</h6></TimelineContent>
             </TimelineItem>
             
             {props.children}
