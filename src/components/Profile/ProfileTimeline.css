@@ -1,0 +1,11 @@
+.timeline .timeline_item {
+    min-height: 55px !important;
+    padding-left: 7px;
+}
+
+.timeline .timeline_text_item {
+    padding-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--primary-dark);
+}

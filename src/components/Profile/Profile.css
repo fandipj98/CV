@@ -1,0 +1,25 @@
+.profile {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+}
+
+.profile_information {
+    padding: 20px;
+}
+
+.profile_image_container {
+    padding-top: 20px;
+    display: block;
+}
+
+.profile_image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border:6px solid var(--secondary-color);
+}

@@ -1,9 +1,9 @@
 import { Container, Grid } from "@material-ui/core";
 
-import Profile from "./components/Profile/Profile";
-import Header from "./components/Header/Header";
-import About from "./pages/About/About";
-import Education from "./pages/Education/Education";
+import Profile from './components/Profile/Profile';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Education from './components/Education/Education';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,10 +13,10 @@ function App() {
   return (
     <Container>
       <Grid container>
-        <Grid items xs={12} sm={12} md={4} lg={3} style={{ backgroundColor: 'yellow' }}>
+        <Grid items xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
-        <Grid items xs>
+        <Grid items xs style={{ backgroundColor: 'yellow' }}>
           <Header />
           <Router>
             <Switch>
