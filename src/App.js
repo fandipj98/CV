@@ -12,13 +12,13 @@ import './App.css';
 function App() {
   return (
     <Container className="container">
-      <Grid container spacing={7}>
+      <Grid container>
         <Grid items xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
-        <Grid items xs style={{ backgroundColor: 'yellow' }}>
-          <Header />
+        <Grid items xs>
           <Router>
+            <Header />
             <Switch>
               <Route path="/education">
                 <Education />

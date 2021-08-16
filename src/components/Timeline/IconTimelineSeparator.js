@@ -8,11 +8,11 @@ function IconTimelineSeparator(props) {
     return(
         <TimelineSeparator className="separator_padding">
             <TimelineDot variant="default" className="timeline_dot">{props.icon}</TimelineDot>
-            {props.last ? ('') : (
+            {props.isLast ? ('') : (
                 <TimelineConnector />
             )}
         </TimelineSeparator>
     );
 }
 
-export default IconTimelineSeparator
+export default IconTimelineSeparator;

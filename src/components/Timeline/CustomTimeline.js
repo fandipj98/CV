@@ -24,4 +24,4 @@ function CustomTimeline(props) {
     );
 }
 
-export default CustomTimeline
+export default CustomTimeline;
