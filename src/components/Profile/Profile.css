@@ -7,6 +7,8 @@
 
 .profile_information {
     padding: 0px 10px 0px 10px;
+    white-space:normal;
+    word-break: break-all;
 }
 
 .profile_image_container {
@@ -26,6 +28,7 @@
 
 .button_container {
     width: 100%;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }

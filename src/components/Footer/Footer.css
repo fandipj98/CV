@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-light);
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    border-radius: 6px;
+    padding: 15px 20px;
+    text-align: right;
+}
+
+.footer .footer_text {
+    font-size: 14px;
+}
