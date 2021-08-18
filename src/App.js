@@ -1,4 +1,4 @@
-import { Container, Grid } from "@material-ui/core";
+import { Container, Row, Col } from 'react-bootstrap';
 
 import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
@@ -12,11 +12,11 @@ import './App.css';
 function App() {
   return (
     <Container className="container">
-      <Grid container>
-        <Grid items xs={12} sm={12} md={4} lg={3}>
+      <Row>  
+        <Col xs={12} sm={12} md={4} lg={3}>
           <Profile />
-        </Grid>
-        <Grid items xs>
+        </Col>
+        <Col xs>
           <Router>
             <Header />
             <Switch>
@@ -28,8 +28,8 @@ function App() {
               </Route>
             </Switch>
           </Router>
-        </Grid>
-      </Grid>
+        </Col>
+      </Row>
     </Container>
   );
 }
