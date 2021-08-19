@@ -20,14 +20,16 @@ function App() {
         <Col xs>
           <Router>
             <Header />
-            <Switch>
-              <Route path="/education">
-                <Education />
-              </Route>
-              <Route path="/">
-                <About />
-              </Route>
-            </Switch>
+            <div className="main_content container_shadow">
+              <Switch>
+                <Route path="/education">
+                  <Education />
+                </Route>
+                <Route path="/">
+                  <About />
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Col>

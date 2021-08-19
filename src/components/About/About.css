@@ -1,0 +1,53 @@
+.about_container {
+    padding-bottom: 30px;
+}
+
+.section_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+}
+
+.section_title .section_icon {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 7px;
+    border-radius: 50% !important;
+}
+
+.section_title .section_icon > .MuiSvgIcon-root {
+    font-size: 26px;
+    color: var(--primary-color);
+}
+
+.section_title > h1 {
+    margin: 0px 0px 0px 16px;
+    color: var(--secondary-dark);
+    font-size: 32px;
+}
+
+.about_title {
+    margin-bottom: 20px;
+    text-align: center;
+    min-height: 120px;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-end-end-radius: 50%;
+    border-end-start-radius: 50%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.about_title .about_name {
+    padding-top: 10px;
+}
+
+.about_title .about_status {
+    color: var(--secondary-color);
+}
+
+.about_text {
+    padding: 0px 30px;
+    text-align: justify;
+}
