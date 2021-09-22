@@ -1,0 +1,27 @@
+.portfolio_container {
+    padding: 30px 20px;
+}
+
+.portfolio_item_title {
+    display: inline-block;
+}
+
+.portfolio_item_title_underline {
+    width: 100%;
+    margin: 7px 0 10px 0;
+    border: 3px solid;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.portfolio_grid_item {
+    margin-bottom: 25px;
+}
+
+.portfolio_item_image {
+    height: 225px;
+}
+
+.portfolio_item_language {
+    font-weight: bold;
+}

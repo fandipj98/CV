@@ -25,6 +25,7 @@ function Skills() {
                 </span>
                 <h1>{SkillsData.title}</h1>
             </div>
+            
             <Container fluid>
                 <Row>
                     <Col lg={6} md={6} sm={12} xs={12}>
@@ -33,14 +34,14 @@ function Skills() {
                             <hr className="skills_section_title_underline" />
                         </div>
                         <ul className="skills_list_container">
-                            {SkillsData.data.map((item) => {
+                            {SkillsData.data.map((items) => {
                                 return(
-                                    <li key={item.key} className="skills_list">
+                                    <li key={items.key} className="skills_list">
                                         <div className="skills_image_container">
-                                            <img src={item.icon} alt="" className="skills_icon"/>
+                                            <img src={items.icon} alt="" className="skills_icon"/>
                                         </div>
                                         <div className="skills_text_container">
-                                            <h6 className="skills_name">{item.name}</h6>
+                                            <h6 className="skills_name">{items.name}</h6>
                                         </div>
                                     </li>
                                 );
@@ -54,14 +55,14 @@ function Skills() {
                             <hr className="skills_section_title_underline" />
                         </div>
                         <ul className="skills_list_container">
-                            {Framework.map((item) => {
+                            {Framework.map((items) => {
                                 return(
-                                    <li key={item.key} className="skills_list">
+                                    <li key={items.key} className="skills_list">
                                         <div className="skills_image_container">
-                                            <img src={item.icon} alt="" className="skills_icon"/>
+                                            <img src={items.icon} alt="" className="skills_icon"/>
                                         </div>
                                         <div className="skills_text_container">
-                                            <h6 className="skills_name">{item.name}</h6>
+                                            <h6 className="skills_name">{items.name}</h6>
                                         </div>
                                     </li>
                                 );
@@ -79,11 +80,11 @@ function Skills() {
                         </div>
                         
                         <ul className="skills_list_container">
-                            {Language.map((item) => {
+                            {Language.map((items) => {
                                 return(
-                                    <li key={item.key} className="skills_list">
+                                    <li key={items.key} className="skills_list">
                                         <div className="skills_text_container">
-                                            <h6 className="language_name">{item.name}</h6>
+                                            <h6 className="language_name">{items.name}</h6>
                                         </div>
                                     </li>
                                 );
@@ -93,10 +94,10 @@ function Skills() {
                     </Col>
 
                     <Col lg={6} md={6} sm={6} xs={6} className="rating_column_container">   
-                        {Language.map((item) => {
+                        {Language.map((items) => {
                             return(
-                                <div key={item.key} className="rating_container">
-                                    <ProgressBar now={item.rating} variant="custom"/>
+                                <div key={items.key} className="rating_container">
+                                    <ProgressBar now={items.rating} variant="custom"/>
                                 </div>
                             );
                         })
@@ -112,11 +113,11 @@ function Skills() {
                         </div>
 
                         <ul className="skills_list_container">
-                            {Certification.map((item) => {
+                            {Certification.map((items) => {
                                 return(
-                                    <li key={item.key} className="skills_list">
+                                    <li key={items.key} className="skills_list">
                                         <div className="skills_text_container">
-                                            <h6 className="certificate_name">{item.name}</h6>
+                                            <h6 className="certificate_name">{items.name}</h6>
                                         </div>
                                     </li>
                                 );
