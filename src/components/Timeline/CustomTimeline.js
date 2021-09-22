@@ -16,7 +16,7 @@ function CustomTimeline(props) {
                     <TimelineDot className="timeline_dot_header">{props.icon}</TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><h6 className="timeline_text_header">{props.title}</h6></TimelineContent>
+                <TimelineContent><h6 className={props.style}>{props.title}</h6></TimelineContent>
             </TimelineItem>
             
             {props.children}

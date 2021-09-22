@@ -11,6 +11,12 @@
     color: var(--secondary-dark);
 }
 
+.timeline .component_text_header {
+    padding-top: 5px;
+    font-size: 30px;
+    color: var(--secondary-dark);
+}
+
 .timeline .timeline_header {
     min-height: 75px !important;
 }

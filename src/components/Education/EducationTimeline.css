@@ -1,0 +1,25 @@
+.timeline .education_timeline_item {
+    min-height: 55px !important;
+    padding-left: 15px;
+}
+
+.timeline .education_timeline_text_item {
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.timeline .education_department {
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+.timeline .education_gpa {
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}

@@ -17,7 +17,7 @@ function Profile() {
             </div>
 
             <div className="profile_information">
-                <CustomTimeline icon={<ContactsIcon />} title="Contact">
+                <CustomTimeline icon={<ContactsIcon />} title="Contact" style="timeline_text_header">
                     <ProfileTimeline data={Contact}/>
                 </CustomTimeline>
             </div>
