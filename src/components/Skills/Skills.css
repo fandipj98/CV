@@ -1,0 +1,87 @@
+.skills_container {
+    padding: 30px;
+}
+
+.skills_title {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.skills_section_container {
+    display: inline-block;
+}
+
+.skills_section_title {
+    font-size: 17px;
+    margin: 15px 0 0 10px;
+}
+
+.skills_section_title_underline {
+    width: 100%;
+    margin: 5px 0 0 10px;
+    border: 3px solid;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.skills_list_container {
+    list-style-type: none;
+    padding: 10px 0 0 0;
+}
+
+.skills_list_container .skills_list {
+    display: flex;
+    align-items: center;
+}
+
+.skills_list_container .skills_image_container {
+    padding: 10px;
+    max-width: 60px;
+    max-height: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_icon {
+    width: 100%;
+    height: auto;
+}
+
+.skills_name {
+    padding-top: 11px;
+}
+
+.language_name {
+    margin: 0 0 20px 15px;
+}
+
+.rating_column_container {
+    margin: 56px 0 0 -50px !important;
+}
+
+.rating_container {
+    margin: 10px 0 20px 0;
+}
+
+.bg-custom {
+    background-color: var(--primary-dark) !important;
+}
+
+.certificate_name {
+    margin: 0 0 20px 15px;
+}
+
+.skills_show_modal {
+    padding-bottom: 10px;
+}
+
+.modal_image {
+    max-width: 500px;
+    max-height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

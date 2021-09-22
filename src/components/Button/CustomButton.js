@@ -9,6 +9,7 @@ function CustomButton(props) {
       endIcon={
         props.icon ? <div className="button_icon_container">{props.icon}</div> : null
       }
+      onClick={props.onClick}
     ><span className="button_text">{props.text}</span></Button>
   );
 }

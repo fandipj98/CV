@@ -7,6 +7,8 @@ import CustomButton from '../Button/CustomButton';
 import ContactsIcon from '@material-ui/icons/Contacts';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
+import cv from "../../assets/file/CV_Kerja_FandiPJ.pdf";
+
 import './Profile.css';
 
 function Profile() {
@@ -23,7 +25,9 @@ function Profile() {
             </div>
 
             <div className="button_container">
-                <CustomButton text="Download CV" icon={<GetAppIcon />}/>
+                <a href={cv} download="CV_Kerja_FandiPJ">
+                    <CustomButton text="Download CV" icon={<GetAppIcon />}/>
+                </a>
             </div>
 
         </div>

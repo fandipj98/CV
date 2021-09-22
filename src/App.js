@@ -4,6 +4,7 @@ import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Education from './components/Education/Education';
+import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -22,6 +23,9 @@ function App() {
             <Header />
             <div className="main_content container_shadow">
               <Switch>
+                <Route path="/skills">
+                  <Skills />
+                </Route>
                 <Route path="/education">
                   <Education />
                 </Route>
